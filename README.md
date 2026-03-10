@@ -109,3 +109,74 @@ Premium vs insured value relationship
 Premium rate comparisons across segments
 Key drivers of premium variation
 The dashboard is designed to support management-level decision making and pricing strategy discussions.
+Project Structure
+actuarial-motor-insurance-pricing/
+
+data/
+    raw/
+        motor_insurance_dataset.csv
+
+notebooks/
+    01_data_cleaning.ipynb
+    02_actuarial_eda.ipynb
+    03_premium_modeling.ipynb
+
+dashboard/
+    motor_insurance_dashboard.pbix
+
+images/
+
+README.md
+Tools and Technologies
+Programming
+Python
+Libraries used:
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+Data Visualization
+Power BI
+Features used:
+interactive filters
+KPI cards
+segmentation visuals
+premium distribution charts
+Key Insights
+Key findings from the analysis include:
+Insurance type is a major pricing driver, with comprehensive policies commanding substantially higher premiums than third-party coverage.
+Insured value strongly correlates with premium levels, reflecting value-based pricing practices.
+Premiums differ across vehicle categories and manufacturers, suggesting implicit risk segmentation in pricing.
+Vehicle age influences pricing, though its effect varies depending on vehicle type and coverage.
+Predictive models demonstrate that a combination of vehicle attributes and insured value can explain a substantial portion of premium variation across policies.
+Limitations
+This dataset does not contain:
+claims
+accident history
+loss amounts
+exposure duration
+Therefore, the project cannot estimate:
+loss ratios
+pure premiums
+actuarial reserves
+technical profitability
+The analysis instead focuses on observed premium structure and pricing behavior, rather than full actuarial ratemaking based on claims experience.
+Future Improvements
+Several extensions could further enhance the project:
+Incorporating claims and loss data to perform full actuarial ratemaking
+Applying GLM models commonly used in actuarial pricing
+Using SHAP or explainable AI techniques to interpret pricing drivers
+Expanding the dataset to include driver demographics and accident history
+Author
+Andy Nguyen
+Business Analytics & Economics
+DePauw University
+Interests:
+Actuarial Analytics
+Financial Data Science
+Risk Modeling
+Insurance Pricing
+Key drivers of premium variation
+The dashboard is designed to support management-level decision making and pricing strategy discussions.
