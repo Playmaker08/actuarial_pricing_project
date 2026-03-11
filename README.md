@@ -185,3 +185,46 @@ The predictive model allows insurers to estimate premiums for new policy scenari
 ---
 
 ## Project Structure
+
+Motor-Insurance-Pricing-Analytics/
+│
+├── data/
+│ └── motor_insurance_dataset.csv
+│
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ ├── 02_actuarial_eda.ipynb
+│ ├── 03_premium_modeling.ipynb
+│ └── 04_pricing_simulator.ipynb
+│
+├── dashboard/
+│ └── actuarial_pricing_dashboard.pbix
+│ └── actuarial_pricing_dashboard.pdf
+│
+└── README.md
+
+---
+
+## Business Value
+
+This project demonstrates how insurance companies can combine actuarial analysis, machine learning, and data visualization to support pricing decisions.
+
+The pricing simulator provides a practical framework for evaluating new policies and benchmarking them against existing portfolio pricing structures.
+
+---
+
+## Future Improvements
+
+Potential extensions include:
+
+- Incorporating claims data for loss modeling
+- Building frequency and severity models
+- Implementing GLM-based actuarial pricing models
+- Developing a real-time pricing API
+- Integrating the pricing simulator into underwriting systems
+
+---
+
+## Author
+
+This project was developed as part of a data analytics portfolio demonstrating actuarial analysis, machine learning, and business intelligence skills in insurance pricing.
